@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.067fae43.chunk.css",
-    "main.js": "/static/js/main.e5ca6195.chunk.js",
-    "main.js.map": "/static/js/main.e5ca6195.chunk.js.map",
+    "main.css": "/static/css/main.6d1f3f3a.chunk.css",
+    "main.js": "/static/js/main.ab21b8a9.chunk.js",
+    "main.js.map": "/static/js/main.ab21b8a9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8bd8e4fb.js",
     "runtime-main.js.map": "/static/js/runtime-main.8bd8e4fb.js.map",
-    "static/js/2.830fa97c.chunk.js": "/static/js/2.830fa97c.chunk.js",
-    "static/js/2.830fa97c.chunk.js.map": "/static/js/2.830fa97c.chunk.js.map",
+    "static/js/2.d5bd4622.chunk.js": "/static/js/2.d5bd4622.chunk.js",
+    "static/js/2.d5bd4622.chunk.js.map": "/static/js/2.d5bd4622.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5f9cc8fd4318c36ebf73f286e899f073.js": "/precache-manifest.5f9cc8fd4318c36ebf73f286e899f073.js",
+    "precache-manifest.460d09231b79e1c727284226e43c2738.js": "/precache-manifest.460d09231b79e1c727284226e43c2738.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.067fae43.chunk.css.map": "/static/css/main.067fae43.chunk.css.map",
-    "static/js/2.830fa97c.chunk.js.LICENSE.txt": "/static/js/2.830fa97c.chunk.js.LICENSE.txt",
+    "static/css/main.6d1f3f3a.chunk.css.map": "/static/css/main.6d1f3f3a.chunk.css.map",
+    "static/js/2.d5bd4622.chunk.js.LICENSE.txt": "/static/js/2.d5bd4622.chunk.js.LICENSE.txt",
     "static/media/asenso-volcan.jpg": "/static/media/asenso-volcan.99a54484.jpg",
     "static/media/banner1.jpg": "/static/media/banner1.79cecca9.jpg",
     "static/media/banner2.jpg": "/static/media/banner2.cef48245.jpg",
@@ -29,13 +29,12 @@
     "static/media/rafting.jpg": "/static/media/rafting.459d2f6f.jpg",
     "static/media/texto1.jpg": "/static/media/texto1.03459d36.jpg",
     "static/media/texto2.jpg": "/static/media/texto2.5402f1cc.jpg",
-    "static/media/texto3.jpg": "/static/media/texto3.67568a4c.jpg",
-    "static/media/texto4.jpg": "/static/media/texto4.cc8cc50e.jpg"
+    "static/media/texto3.jpg": "/static/media/texto3.67568a4c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8bd8e4fb.js",
-    "static/js/2.830fa97c.chunk.js",
-    "static/css/main.067fae43.chunk.css",
-    "static/js/main.e5ca6195.chunk.js"
+    "static/js/2.d5bd4622.chunk.js",
+    "static/css/main.6d1f3f3a.chunk.css",
+    "static/js/main.ab21b8a9.chunk.js"
   ]
 }

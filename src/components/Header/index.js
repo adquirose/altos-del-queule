@@ -13,7 +13,7 @@ import {
 // core components
 const items = [
   {
-    src: "url(" + require("assets/img/header/banner1.jpg") + ")",
+    src: "url(" + require("assets/img/header/pucon-volcan.jpg") + ")",
     content: (
       <Container>
         <Row>

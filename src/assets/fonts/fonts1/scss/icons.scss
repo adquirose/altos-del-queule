@@ -1,0 +1,648 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-html5-2: unicode(ea03);
+$icon-app: unicode(ea04);
+$icon-phone-button: unicode(ea05);
+$icon-map-big: unicode(ea06);
+$icon-incognito: unicode(ea08);
+$icon-vr-headset: unicode(ea09);
+$icon-video-playlist: unicode(ea0a);
+$icon-low-vision: unicode(ea0b);
+$icon-drone-2: unicode(ea0c);
+$icon-drone: unicode(ea0d);
+$icon-property-location: unicode(ea0e);
+$icon-furnished-property: unicode(ea0f);
+$icon-new-construction: unicode(ea10);
+$icon-apartment: unicode(ea11);
+$icon-dots-07: unicode(ea12);
+$icon-world-2: unicode(ea13);
+$icon-wifi: unicode(ea14);
+$icon-water-sink: unicode(ea15);
+$icon-water-hand: unicode(ea16);
+$icon-video: unicode(ea17);
+$icon-tree-01: unicode(ea18);
+$icon-bin: unicode(ea19);
+$icon-train: unicode(ea1a);
+$icon-shopping-tag: unicode(ea1b);
+$icon-windsurfing: unicode(ea1c);
+$icon-spaceship: unicode(ea1d);
+$icon-snow: unicode(ea1e);
+$icon-sign-24h: unicode(ea1f);
+$icon-gear: unicode(ea20);
+$icon-send: unicode(ea21);
+$icon-jpg: unicode(ea23);
+$icon-img: unicode(ea24);
+$icon-eye-2: unicode(ea25);
+$icon-bike: unicode(ea26);
+$icon-badge: unicode(ea27);
+$icon-video-player: unicode(ea29);
+$icon-phone: unicode(ea2a);
+$icon-mail: unicode(ea2b);
+$icon-o-check: unicode(ea2c);
+$icon-zoom-out: unicode(ea2e);
+$icon-map-pin-2: unicode(ea2f);
+$icon-t-remove: unicode(ea30);
+$icon-logout: unicode(ea31);
+$icon-pin-add: unicode(ea32);
+$icon-pin-3: unicode(ea33);
+$icon-pin-add-2: unicode(ea34);
+$icon-pin-remove-2: unicode(ea35);
+$icon-favorite: unicode(ea36);
+$icon-filter-tool: unicode(ea37);
+$icon-star: unicode(ea38);
+$icon-d-edit: unicode(ea39);
+$icon-b-comment: unicode(ea3a);
+$icon-alarm: unicode(ea3b);
+$icon-search-zoom-in-2: unicode(ea3c);
+$icon-logo-whatsapp: unicode(ea3d);
+$icon-note: unicode(ea3e);
+$icon-road-2-2: unicode(ea40);
+$icon-car-front: unicode(ea41);
+$icon-instant-camera: unicode(ea42);
+$icon-instant-camera-2: unicode(ea43);
+$icon-deer: unicode(ea44);
+$icon-penguin: unicode(ea45);
+$icon-mountain: unicode(ea46);
+$icon-ctrl-right: unicode(ea47);
+$icon-ctrl-left: unicode(ea48);
+$icon-sign-left: unicode(ea49);
+$icon-sign-right: unicode(ea4a);
+$icon-rowing: unicode(ea4b);
+$icon-walk: unicode(ea4c);
+$icon-wind-2: unicode(ea4e);
+$icon-sun-cloud-rain: unicode(ea4f);
+$icon-present: unicode(ea50);
+$icon-refund: unicode(ea51);
+$icon-currency-exchange-2: unicode(ea52);
+$icon-eco-home: unicode(ea53);
+$icon-smart-house: unicode(ea54);
+$icon-fish: unicode(ea55);
+$icon-boat-small-02: unicode(ea56);
+$icon-drop-2: unicode(ea57);
+$icon-tree-02: unicode(ea58);
+$icon-plug: unicode(ea59);
+$icon-plug-2: unicode(ea5a);
+$icon-bulb-63: unicode(ea5b);
+$icon-handout: unicode(ea5c);
+$icon-currency-dollar: unicode(ea5d);
+$icon-boat-front: unicode(ea5e);
+$icon-lightning: unicode(ea5f);
+$icon-time-clock: unicode(ea60);
+$icon-map-pin: unicode(ea61);
+$icon-position-marker: unicode(ea62);
+$icon-square-marker: unicode(ea63);
+$icon-new-construction-2: unicode(ea64);
+$icon-delivery: unicode(ea65);
+$icon-storage-unit: unicode(ea66);
+$icon-office: unicode(ea67);
+$icon-police: unicode(ea68);
+$icon-i-lock: unicode(ea69);
+$icon-mortgage: unicode(ea6a);
+$icon-privacy-policy: unicode(ea6b);
+$icon-handshake: unicode(ea6d);
+$icon-skiing: unicode(ea6e);
+$icon-boat-small-02-2: unicode(ea6f);
+$icon-shop-location: unicode(ea70);
+$icon-water-aerobics: unicode(ea71);
+$icon-water-wave: unicode(ea72);
+$icon-gym-class: unicode(ea73);
+$icon-walk-2: unicode(ea74);
+$icon-binocular: unicode(ea75);
+$icon-horse: unicode(ea76);
+$icon-passenger: unicode(ea77);
+$icon-backpack: unicode(ea78);
+$icon-wash: unicode(ea79);
+$icon-skull: unicode(ea7a);
+$icon-water-surface-2: unicode(ea7b);
+$icon-park: unicode(ea7c);
+$icon-compass-06: unicode(ea7d);
+$icon-world: unicode(ea7f);
+$icon-search-to-close: unicode(ea80);
+$icon-search: unicode(ea81);
+$icon-pyramid: unicode(ea82);
+$icon-usa: unicode(ea83);
+$icon-chile: unicode(ea84);
+$icon-skateboarding: unicode(ea85);
+$icon-skateboard-2: unicode(ea86);
+$icon-d-add: unicode(ea87);
+$icon-e-add: unicode(ea88);
+$icon-t-add: unicode(ea89);
+$icon-d-add-2: unicode(ea8a);
+
+.icon-html5-2::before {
+  content: $icon-html5-2;
+}
+
+.icon-app::before {
+  content: $icon-app;
+}
+
+.icon-phone-button::before {
+  content: $icon-phone-button;
+}
+
+.icon-map-big::before {
+  content: $icon-map-big;
+}
+
+.icon-incognito::before {
+  content: $icon-incognito;
+}
+
+.icon-vr-headset::before {
+  content: $icon-vr-headset;
+}
+
+.icon-video-playlist::before {
+  content: $icon-video-playlist;
+}
+
+.icon-low-vision::before {
+  content: $icon-low-vision;
+}
+
+.icon-drone-2::before {
+  content: $icon-drone-2;
+}
+
+.icon-drone::before {
+  content: $icon-drone;
+}
+
+.icon-property-location::before {
+  content: $icon-property-location;
+}
+
+.icon-furnished-property::before {
+  content: $icon-furnished-property;
+}
+
+.icon-new-construction::before {
+  content: $icon-new-construction;
+}
+
+.icon-apartment::before {
+  content: $icon-apartment;
+}
+
+.icon-dots-07::before {
+  content: $icon-dots-07;
+}
+
+.icon-world-2::before {
+  content: $icon-world-2;
+}
+
+.icon-wifi::before {
+  content: $icon-wifi;
+}
+
+.icon-water-sink::before {
+  content: $icon-water-sink;
+}
+
+.icon-water-hand::before {
+  content: $icon-water-hand;
+}
+
+.icon-video::before {
+  content: $icon-video;
+}
+
+.icon-tree-01::before {
+  content: $icon-tree-01;
+}
+
+.icon-bin::before {
+  content: $icon-bin;
+}
+
+.icon-train::before {
+  content: $icon-train;
+}
+
+.icon-shopping-tag::before {
+  content: $icon-shopping-tag;
+}
+
+.icon-windsurfing::before {
+  content: $icon-windsurfing;
+}
+
+.icon-spaceship::before {
+  content: $icon-spaceship;
+}
+
+.icon-snow::before {
+  content: $icon-snow;
+}
+
+.icon-sign-24h::before {
+  content: $icon-sign-24h;
+}
+
+.icon-gear::before {
+  content: $icon-gear;
+}
+
+.icon-send::before {
+  content: $icon-send;
+}
+
+.icon-jpg::before {
+  content: $icon-jpg;
+}
+
+.icon-img::before {
+  content: $icon-img;
+}
+
+.icon-eye-2::before {
+  content: $icon-eye-2;
+}
+
+.icon-bike::before {
+  content: $icon-bike;
+}
+
+.icon-badge::before {
+  content: $icon-badge;
+}
+
+.icon-video-player::before {
+  content: $icon-video-player;
+}
+
+.icon-phone::before {
+  content: $icon-phone;
+}
+
+.icon-mail::before {
+  content: $icon-mail;
+}
+
+.icon-o-check::before {
+  content: $icon-o-check;
+}
+
+.icon-zoom-out::before {
+  content: $icon-zoom-out;
+}
+
+.icon-map-pin-2::before {
+  content: $icon-map-pin-2;
+}
+
+.icon-t-remove::before {
+  content: $icon-t-remove;
+}
+
+.icon-logout::before {
+  content: $icon-logout;
+}
+
+.icon-pin-add::before {
+  content: $icon-pin-add;
+}
+
+.icon-pin-3::before {
+  content: $icon-pin-3;
+}
+
+.icon-pin-add-2::before {
+  content: $icon-pin-add-2;
+}
+
+.icon-pin-remove-2::before {
+  content: $icon-pin-remove-2;
+}
+
+.icon-favorite::before {
+  content: $icon-favorite;
+}
+
+.icon-filter-tool::before {
+  content: $icon-filter-tool;
+}
+
+.icon-star::before {
+  content: $icon-star;
+}
+
+.icon-d-edit::before {
+  content: $icon-d-edit;
+}
+
+.icon-b-comment::before {
+  content: $icon-b-comment;
+}
+
+.icon-alarm::before {
+  content: $icon-alarm;
+}
+
+.icon-search-zoom-in-2::before {
+  content: $icon-search-zoom-in-2;
+}
+
+.icon-logo-whatsapp::before {
+  content: $icon-logo-whatsapp;
+}
+
+.icon-note::before {
+  content: $icon-note;
+}
+
+.icon-road-2-2::before {
+  content: $icon-road-2-2;
+}
+
+.icon-car-front::before {
+  content: $icon-car-front;
+}
+
+.icon-instant-camera::before {
+  content: $icon-instant-camera;
+}
+
+.icon-instant-camera-2::before {
+  content: $icon-instant-camera-2;
+}
+
+.icon-deer::before {
+  content: $icon-deer;
+}
+
+.icon-penguin::before {
+  content: $icon-penguin;
+}
+
+.icon-mountain::before {
+  content: $icon-mountain;
+}
+
+.icon-ctrl-right::before {
+  content: $icon-ctrl-right;
+}
+
+.icon-ctrl-left::before {
+  content: $icon-ctrl-left;
+}
+
+.icon-sign-left::before {
+  content: $icon-sign-left;
+}
+
+.icon-sign-right::before {
+  content: $icon-sign-right;
+}
+
+.icon-rowing::before {
+  content: $icon-rowing;
+}
+
+.icon-walk::before {
+  content: $icon-walk;
+}
+
+.icon-wind-2::before {
+  content: $icon-wind-2;
+}
+
+.icon-sun-cloud-rain::before {
+  content: $icon-sun-cloud-rain;
+}
+
+.icon-present::before {
+  content: $icon-present;
+}
+
+.icon-refund::before {
+  content: $icon-refund;
+}
+
+.icon-currency-exchange-2::before {
+  content: $icon-currency-exchange-2;
+}
+
+.icon-eco-home::before {
+  content: $icon-eco-home;
+}
+
+.icon-smart-house::before {
+  content: $icon-smart-house;
+}
+
+.icon-fish::before {
+  content: $icon-fish;
+}
+
+.icon-boat-small-02::before {
+  content: $icon-boat-small-02;
+}
+
+.icon-drop-2::before {
+  content: $icon-drop-2;
+}
+
+.icon-tree-02::before {
+  content: $icon-tree-02;
+}
+
+.icon-plug::before {
+  content: $icon-plug;
+}
+
+.icon-plug-2::before {
+  content: $icon-plug-2;
+}
+
+.icon-bulb-63::before {
+  content: $icon-bulb-63;
+}
+
+.icon-handout::before {
+  content: $icon-handout;
+}
+
+.icon-currency-dollar::before {
+  content: $icon-currency-dollar;
+}
+
+.icon-boat-front::before {
+  content: $icon-boat-front;
+}
+
+.icon-lightning::before {
+  content: $icon-lightning;
+}
+
+.icon-time-clock::before {
+  content: $icon-time-clock;
+}
+
+.icon-map-pin::before {
+  content: $icon-map-pin;
+}
+
+.icon-position-marker::before {
+  content: $icon-position-marker;
+}
+
+.icon-square-marker::before {
+  content: $icon-square-marker;
+}
+
+.icon-new-construction-2::before {
+  content: $icon-new-construction-2;
+}
+
+.icon-delivery::before {
+  content: $icon-delivery;
+}
+
+.icon-storage-unit::before {
+  content: $icon-storage-unit;
+}
+
+.icon-office::before {
+  content: $icon-office;
+}
+
+.icon-police::before {
+  content: $icon-police;
+}
+
+.icon-i-lock::before {
+  content: $icon-i-lock;
+}
+
+.icon-mortgage::before {
+  content: $icon-mortgage;
+}
+
+.icon-privacy-policy::before {
+  content: $icon-privacy-policy;
+}
+
+.icon-handshake::before {
+  content: $icon-handshake;
+}
+
+.icon-skiing::before {
+  content: $icon-skiing;
+}
+
+.icon-boat-small-02-2::before {
+  content: $icon-boat-small-02-2;
+}
+
+.icon-shop-location::before {
+  content: $icon-shop-location;
+}
+
+.icon-water-aerobics::before {
+  content: $icon-water-aerobics;
+}
+
+.icon-water-wave::before {
+  content: $icon-water-wave;
+}
+
+.icon-gym-class::before {
+  content: $icon-gym-class;
+}
+
+.icon-walk-2::before {
+  content: $icon-walk-2;
+}
+
+.icon-binocular::before {
+  content: $icon-binocular;
+}
+
+.icon-horse::before {
+  content: $icon-horse;
+}
+
+.icon-passenger::before {
+  content: $icon-passenger;
+}
+
+.icon-backpack::before {
+  content: $icon-backpack;
+}
+
+.icon-wash::before {
+  content: $icon-wash;
+}
+
+.icon-skull::before {
+  content: $icon-skull;
+}
+
+.icon-water-surface-2::before {
+  content: $icon-water-surface-2;
+}
+
+.icon-park::before {
+  content: $icon-park;
+}
+
+.icon-compass-06::before {
+  content: $icon-compass-06;
+}
+
+.icon-world::before {
+  content: $icon-world;
+}
+
+.icon-search-to-close::before {
+  content: $icon-search-to-close;
+}
+
+.icon-search::before {
+  content: $icon-search;
+}
+
+.icon-pyramid::before {
+  content: $icon-pyramid;
+}
+
+.icon-usa::before {
+  content: $icon-usa;
+}
+
+.icon-chile::before {
+  content: $icon-chile;
+}
+
+.icon-skateboarding::before {
+  content: $icon-skateboarding;
+}
+
+.icon-skateboard-2::before {
+  content: $icon-skateboard-2;
+}
+
+.icon-d-add::before {
+  content: $icon-d-add;
+}
+
+.icon-e-add::before {
+  content: $icon-e-add;
+}
+
+.icon-t-add::before {
+  content: $icon-t-add;
+}
+
+.icon-d-add-2::before {
+  content: $icon-d-add-2;
+}
+

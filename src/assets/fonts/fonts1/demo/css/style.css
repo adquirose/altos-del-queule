@@ -1,0 +1,660 @@
+/*--------------------------------
+
+nucleo-icons Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'nucleo-icons';
+  src: url('../../fonts/nucleo-icons.eot');
+  src: url('../../fonts/nucleo-icons.eot') format('embedded-opentype'), url('../../fonts/nucleo-icons.woff2') format('woff2'), url('../../fonts/nucleo-icons.woff') format('woff'), url('../../fonts/nucleo-icons.ttf') format('truetype'), url('../../fonts/nucleo-icons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #333333;
+  background: white;
+}
+
+a {
+  color: #608CEE;
+  text-decoration: none;
+}
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+header {
+  text-align: center;
+  padding: 80px 0 48px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+}
+
+header p {
+  font-size: 1.4rem;
+  margin-top: 1em;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+  border-radius: .25em;
+  transition: background 0.2s;
+  user-select: none;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em;
+}
+
+ul li:hover {
+  background: #f8f8f8;
+}
+
+ul p, ul em, ul input {
+  display: block;
+  font-size: 1.1rem;
+  color: rgba(0,0,0,0.6);
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  max-width: 11rem;
+}
+
+ul p {
+  padding: 10px 0;
+}
+
+ul p::selection, ul em::selection {
+  background: #608CEE;
+  color: #fff;
+}
+
+ul p::-moz-selection, ul em::-moz-selection {
+  background: #608CEE;
+  color: #fff;
+}
+
+ul em {
+  margin-bottom: 8px;
+}
+
+ul em::before {
+  content: '[';
+}
+ul em::after {
+  content: ']';
+}
+
+ul input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+/* --------------------------------
+
+icons
+
+-------------------------------- */
+.nc-icon {
+  display: inline-block;
+  font: normal normal normal 32px/1 'nucleo-icons';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  font icons
+-------------------------*/
+
+.icon-html5-2::before {
+    content: "\ea03";
+}
+
+.icon-app::before {
+    content: "\ea04";
+}
+
+.icon-phone-button::before {
+    content: "\ea05";
+}
+
+.icon-map-big::before {
+    content: "\ea06";
+}
+
+.icon-incognito::before {
+    content: "\ea08";
+}
+
+.icon-vr-headset::before {
+    content: "\ea09";
+}
+
+.icon-video-playlist::before {
+    content: "\ea0a";
+}
+
+.icon-low-vision::before {
+    content: "\ea0b";
+}
+
+.icon-drone-2::before {
+    content: "\ea0c";
+}
+
+.icon-drone::before {
+    content: "\ea0d";
+}
+
+.icon-property-location::before {
+    content: "\ea0e";
+}
+
+.icon-furnished-property::before {
+    content: "\ea0f";
+}
+
+.icon-new-construction::before {
+    content: "\ea10";
+}
+
+.icon-apartment::before {
+    content: "\ea11";
+}
+
+.icon-dots-07::before {
+    content: "\ea12";
+}
+
+.icon-world-2::before {
+    content: "\ea13";
+}
+
+.icon-wifi::before {
+    content: "\ea14";
+}
+
+.icon-water-sink::before {
+    content: "\ea15";
+}
+
+.icon-water-hand::before {
+    content: "\ea16";
+}
+
+.icon-video::before {
+    content: "\ea17";
+}
+
+.icon-tree-01::before {
+    content: "\ea18";
+}
+
+.icon-bin::before {
+    content: "\ea19";
+}
+
+.icon-train::before {
+    content: "\ea1a";
+}
+
+.icon-shopping-tag::before {
+    content: "\ea1b";
+}
+
+.icon-windsurfing::before {
+    content: "\ea1c";
+}
+
+.icon-spaceship::before {
+    content: "\ea1d";
+}
+
+.icon-snow::before {
+    content: "\ea1e";
+}
+
+.icon-sign-24h::before {
+    content: "\ea1f";
+}
+
+.icon-gear::before {
+    content: "\ea20";
+}
+
+.icon-send::before {
+    content: "\ea21";
+}
+
+.icon-jpg::before {
+    content: "\ea23";
+}
+
+.icon-img::before {
+    content: "\ea24";
+}
+
+.icon-eye-2::before {
+    content: "\ea25";
+}
+
+.icon-bike::before {
+    content: "\ea26";
+}
+
+.icon-badge::before {
+    content: "\ea27";
+}
+
+.icon-video-player::before {
+    content: "\ea29";
+}
+
+.icon-phone::before {
+    content: "\ea2a";
+}
+
+.icon-mail::before {
+    content: "\ea2b";
+}
+
+.icon-o-check::before {
+    content: "\ea2c";
+}
+
+.icon-zoom-out::before {
+    content: "\ea2e";
+}
+
+.icon-map-pin-2::before {
+    content: "\ea2f";
+}
+
+.icon-t-remove::before {
+    content: "\ea30";
+}
+
+.icon-logout::before {
+    content: "\ea31";
+}
+
+.icon-pin-add::before {
+    content: "\ea32";
+}
+
+.icon-pin-3::before {
+    content: "\ea33";
+}
+
+.icon-pin-add-2::before {
+    content: "\ea34";
+}
+
+.icon-pin-remove-2::before {
+    content: "\ea35";
+}
+
+.icon-favorite::before {
+    content: "\ea36";
+}
+
+.icon-filter-tool::before {
+    content: "\ea37";
+}
+
+.icon-star::before {
+    content: "\ea38";
+}
+
+.icon-d-edit::before {
+    content: "\ea39";
+}
+
+.icon-b-comment::before {
+    content: "\ea3a";
+}
+
+.icon-alarm::before {
+    content: "\ea3b";
+}
+
+.icon-search-zoom-in-2::before {
+    content: "\ea3c";
+}
+
+.icon-logo-whatsapp::before {
+    content: "\ea3d";
+}
+
+.icon-note::before {
+    content: "\ea3e";
+}
+
+.icon-road-2-2::before {
+    content: "\ea40";
+}
+
+.icon-car-front::before {
+    content: "\ea41";
+}
+
+.icon-instant-camera::before {
+    content: "\ea42";
+}
+
+.icon-instant-camera-2::before {
+    content: "\ea43";
+}
+
+.icon-deer::before {
+    content: "\ea44";
+}
+
+.icon-penguin::before {
+    content: "\ea45";
+}
+
+.icon-mountain::before {
+    content: "\ea46";
+}
+
+.icon-ctrl-right::before {
+    content: "\ea47";
+}
+
+.icon-ctrl-left::before {
+    content: "\ea48";
+}
+
+.icon-sign-left::before {
+    content: "\ea49";
+}
+
+.icon-sign-right::before {
+    content: "\ea4a";
+}
+
+.icon-rowing::before {
+    content: "\ea4b";
+}
+
+.icon-walk::before {
+    content: "\ea4c";
+}
+
+.icon-wind-2::before {
+    content: "\ea4e";
+}
+
+.icon-sun-cloud-rain::before {
+    content: "\ea4f";
+}
+
+.icon-present::before {
+    content: "\ea50";
+}
+
+.icon-refund::before {
+    content: "\ea51";
+}
+
+.icon-currency-exchange-2::before {
+    content: "\ea52";
+}
+
+.icon-eco-home::before {
+    content: "\ea53";
+}
+
+.icon-smart-house::before {
+    content: "\ea54";
+}
+
+.icon-fish::before {
+    content: "\ea55";
+}
+
+.icon-boat-small-02::before {
+    content: "\ea56";
+}
+
+.icon-drop-2::before {
+    content: "\ea57";
+}
+
+.icon-tree-02::before {
+    content: "\ea58";
+}
+
+.icon-plug::before {
+    content: "\ea59";
+}
+
+.icon-plug-2::before {
+    content: "\ea5a";
+}
+
+.icon-bulb-63::before {
+    content: "\ea5b";
+}
+
+.icon-handout::before {
+    content: "\ea5c";
+}
+
+.icon-currency-dollar::before {
+    content: "\ea5d";
+}
+
+.icon-boat-front::before {
+    content: "\ea5e";
+}
+
+.icon-lightning::before {
+    content: "\ea5f";
+}
+
+.icon-time-clock::before {
+    content: "\ea60";
+}
+
+.icon-map-pin::before {
+    content: "\ea61";
+}
+
+.icon-position-marker::before {
+    content: "\ea62";
+}
+
+.icon-square-marker::before {
+    content: "\ea63";
+}
+
+.icon-new-construction-2::before {
+    content: "\ea64";
+}
+
+.icon-delivery::before {
+    content: "\ea65";
+}
+
+.icon-storage-unit::before {
+    content: "\ea66";
+}
+
+.icon-office::before {
+    content: "\ea67";
+}
+
+.icon-police::before {
+    content: "\ea68";
+}
+
+.icon-i-lock::before {
+    content: "\ea69";
+}
+
+.icon-mortgage::before {
+    content: "\ea6a";
+}
+
+.icon-privacy-policy::before {
+    content: "\ea6b";
+}
+
+.icon-handshake::before {
+    content: "\ea6d";
+}
+
+.icon-skiing::before {
+    content: "\ea6e";
+}
+
+.icon-boat-small-02-2::before {
+    content: "\ea6f";
+}
+
+.icon-shop-location::before {
+    content: "\ea70";
+}
+
+.icon-water-aerobics::before {
+    content: "\ea71";
+}
+
+.icon-water-wave::before {
+    content: "\ea72";
+}
+
+.icon-gym-class::before {
+    content: "\ea73";
+}
+
+.icon-walk-2::before {
+    content: "\ea74";
+}
+
+.icon-binocular::before {
+    content: "\ea75";
+}
+
+.icon-horse::before {
+    content: "\ea76";
+}
+
+.icon-passenger::before {
+    content: "\ea77";
+}
+
+.icon-backpack::before {
+    content: "\ea78";
+}
+
+.icon-wash::before {
+    content: "\ea79";
+}
+
+.icon-skull::before {
+    content: "\ea7a";
+}
+
+.icon-water-surface-2::before {
+    content: "\ea7b";
+}
+
+.icon-park::before {
+    content: "\ea7c";
+}
+
+.icon-compass-06::before {
+    content: "\ea7d";
+}
+
+.icon-world::before {
+    content: "\ea7f";
+}
+
+.icon-search-to-close::before {
+    content: "\ea80";
+}
+
+.icon-search::before {
+    content: "\ea81";
+}
+
+.icon-pyramid::before {
+    content: "\ea82";
+}
+
+.icon-usa::before {
+    content: "\ea83";
+}
+
+.icon-chile::before {
+    content: "\ea84";
+}
+
+.icon-skateboarding::before {
+    content: "\ea85";
+}
+
+.icon-skateboard-2::before {
+    content: "\ea86";
+}
+
+.icon-d-add::before {
+    content: "\ea87";
+}
+
+.icon-e-add::before {
+    content: "\ea88";
+}
+
+.icon-t-add::before {
+    content: "\ea89";
+}
+
+.icon-d-add-2::before {
+    content: "\ea8a";
+}
+

@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import { GoogleMap, KmlLayer, LoadScript } from '@react-google-maps/api'
+import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api'
 
 const containerStyle = {
   width:'100%',
   height:'470px'
 }
-const center = {lat: -42.93138, lng: -73.63338}
+
+const center = {lat: -39.274103, lng: -71.941902}
 
 class Map extends Component {
   generateRandom() { 
@@ -15,7 +16,7 @@ class Map extends Component {
     return (
       
       <LoadScript
-        googleMapsApiKey="AIzaSyBWOuE8peUbVIM-RgW0-95tVXswNfdI-JY"
+        googleMapsApiKey="AIzaSyBX-fT0cZLTKydQN_HFfeCfHKq_Um_4cSQ"
       >
         <GoogleMap
           mapContainerStyle={containerStyle}
@@ -23,11 +24,7 @@ class Map extends Component {
           zoom={15}
           mapTypeId = {"hybrid"} 
         >
-          { /* Child components, such as markers, info windows, etc. */ }
-          <KmlLayer 
-            url = {`https://www.google.com/maps/d/u/0/kml?mid=14Sj2smmapdpiQZerfHD3OiXiuCDwvWla&ver=${this.generateRandom()}`}
-            opciones = {{preserveViewport: true}} 
-          /> 
+          <Marker position={center} />
         </GoogleMap>
       </LoadScript>
       

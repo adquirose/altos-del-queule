@@ -15,7 +15,7 @@ const data = [
     id: 2,
     titulo: "ARMONÍA CON LA NATURALEZA",
     contenido:
-      "El condominio urbano Jardines del Quelhue está ubicado dentro de la Hacienda Puerto Pucón, en un terreno que cuenta con vistas insuperables del Volcán Villarrica y el imponente Cerro de Quelhue.",
+      "El condominio urbano Altos del Quelhue está ubicado dentro de la Hacienda Puerto Pucón, en un terreno que cuenta con vistas insuperables del Volcán Villarrica y el imponente Cerro de Quelhue.",
     image: require("../../assets/img/proyecto/texto2.jpg"),
     altImage: "imagen2",
     reverse: true,
@@ -28,16 +28,7 @@ const data = [
     image: require("../../assets/img/proyecto/texto3.jpg"),
     altImage: "imagen3",
     reverse: false,
-  },
-  {
-    id: 4,
-    titulo: "SALA MULTIUSO",
-    contenido:
-    "Ven a conversar con nuestros ejecutivos. Tenemos sitios en Pucón desde UF 1.590 y contamos con financiamiento del Banco de Chile, Banco Estado y Santander. Te esperamos. Lunes a domingo 11:00 a 20:00 hrs.",
-    image: require("../../assets/img/proyecto/texto4.jpg"),
-    altImage: "imagen4",
-    reverse: true,
-  },
+  }
 ];
 function Proyecto() {
   return (
@@ -121,7 +112,7 @@ function Caracteristicas() {
               <div className="description">
                 <h4 className="info-title">SERVICIOS ASOCIADOS</h4>
                 <p className="description">
-                  Jardines del Quelhue cuenta con portón con accesos controlados al condominio, 
+                  Altos del Quelhue cuenta con portón con accesos controlados al condominio, 
                   caminos asfaltados, luz, canalización subterránea, agua, alcantarillado y internet fibra óptica.
                 </p>
               </div>
@@ -137,7 +128,7 @@ function Caracteristicas() {
               <div className="description">
                 <h4 className="info-title">ÁREAS DE ESPARCIMIENTO</h4>
                 <p className="description">
-                  Condominio Jardines del Quelhue cuenta con variados espacios comunes a disposición de los residentes, 
+                  Condominio Altos del Quelhue cuenta con variados espacios comunes a disposición de los residentes, 
                   como zona de quincho y áreas verdes para esparcimiento, multicancha, sala de juegos, entre otros.
                 </p>
               </div>
@@ -173,8 +164,8 @@ function Nosotros(){
             <h2 className="title">Nosotros</h2>
             <p className="description">
               Inmobiliaria Mar Bravo Ltda. ya ha desarrollado y vendido en los últimos años, 
-              tres Condominios Privados Urbanizados en el mismo sector de Hacienda Puerto Pucón, 
-              estos son: Vista Quelhue, Brisas del Quelhue y Mirador del Quelhue.
+              cuatro Condominios Privados Urbanizados en el mismo sector de Hacienda Puerto Pucón, 
+              estos son: Vista Quelhue, Brisas del Quelhue, Mirador del Quelhue y Jardines del Quelhue.
             </p>
           </Col>
         </Row>

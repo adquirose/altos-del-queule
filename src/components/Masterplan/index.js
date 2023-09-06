@@ -12,7 +12,7 @@ function SectionMasterplan(){
                 </Col>
                 </Row>
                 <Row>
-                    <iframe className="masterplan" src="https://www.lanube360.com/jardines-quelhue/" title="Masterplan360"/>
+                    <iframe className="masterplan" src="https://www.lanube360.com/temporales/pucon-3/" title="Masterplan360"/>
                 </Row>
             </Container>
         </div>

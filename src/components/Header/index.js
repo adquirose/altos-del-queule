@@ -13,7 +13,7 @@ import {
 // core components
 const items = [
   {
-    src: "url(" + require("assets/img/header/pucon-volcan.jpg") + ")",
+    src: "url(" + require("assets/img/header/header1.jpg") + ")",
     content: (
       <Container>
         <Row>
@@ -27,7 +27,7 @@ const items = [
     caption: "",
   },
   {
-    src: "url(" + require("assets/img/header/banner2.jpg") + ")",
+    src: "url(" + require("assets/img/header/header2.jpg") + ")",
     content: (
       <Container>
         <Row>
@@ -41,7 +41,7 @@ const items = [
     caption: "",
   },
   {
-    src: "url(" + require("assets/img/header/banner3.jpg") + ")",
+    src: "url(" + require("assets/img/header/header3.jpg") + ")",
     content: (
       <Container>
         <Row>

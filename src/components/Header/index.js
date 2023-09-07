@@ -13,7 +13,7 @@ import {
 // core components
 const items = [
   {
-    src: "https://firebasestorage.googleapis.com/v0/b/storage-lanube360.appspot.com/o/dev-lanube360%2Fheader1.jpg?alt=media&token=7144a634-ddb1-4d43-8c78-dd81a85297cf",
+    src: "url(https://firebasestorage.googleapis.com/v0/b/storage-lanube360.appspot.com/o/dev-lanube360%2Fheader1.jpg?alt=media&token=7144a634-ddb1-4d43-8c78-dd81a85297cf)",
     content: (
       <Container>
         <Row>
@@ -27,7 +27,7 @@ const items = [
     caption: "",
   },
   {
-    src: "https://firebasestorage.googleapis.com/v0/b/storage-lanube360.appspot.com/o/dev-lanube360%2Fheader2.jpg?alt=media&token=215f9811-073a-46ea-b3f0-01a2645fc6a6",
+    src: "url(https://firebasestorage.googleapis.com/v0/b/storage-lanube360.appspot.com/o/dev-lanube360%2Fheader2.jpg?alt=media&token=215f9811-073a-46ea-b3f0-01a2645fc6a6)",
     content: (
       <Container>
         <Row>
@@ -41,7 +41,7 @@ const items = [
     caption: "",
   },
   {
-    src: "https://firebasestorage.googleapis.com/v0/b/storage-lanube360.appspot.com/o/dev-lanube360%2Fheader3.jpg?alt=media&token=26772e0f-c1ff-4616-b578-adb0d46a665b",
+    src: "url(https://firebasestorage.googleapis.com/v0/b/storage-lanube360.appspot.com/o/dev-lanube360%2Fheader3.jpg?alt=media&token=26772e0f-c1ff-4616-b578-adb0d46a665b)",
     content: (
       <Container>
         <Row>

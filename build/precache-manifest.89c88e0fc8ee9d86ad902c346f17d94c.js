@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e55243ebca39092650837043d2603f76",
+    "revision": "72cad478f5a7c4b1c7db64ad532cd476",
     "url": "/index.html"
   },
   {
-    "revision": "185f4c6b511c03f7c440",
+    "revision": "391929d4722a08420def",
     "url": "/static/css/main.6d1f3f3a.chunk.css"
   },
   {
-    "revision": "3fe6883e6e3a68ae7196",
-    "url": "/static/js/2.d5bd4622.chunk.js"
+    "revision": "5ee9f4014871f6cd3827",
+    "url": "/static/js/2.3a8c2862.chunk.js"
   },
   {
     "revision": "4557c15fd8984004468e8d016ab0ee8b",
-    "url": "/static/js/2.d5bd4622.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3a8c2862.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "185f4c6b511c03f7c440",
-    "url": "/static/js/main.ab21b8a9.chunk.js"
+    "revision": "391929d4722a08420def",
+    "url": "/static/js/main.bb43c451.chunk.js"
   },
   {
     "revision": "e51277fd6f6fe0688ec6",
@@ -26,18 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99a5448406f6b6cea4ee44eab438837f",
     "url": "/static/media/asenso-volcan.99a54484.jpg"
-  },
-  {
-    "revision": "79cecca98ac5f18a81f0a26b4421d53e",
-    "url": "/static/media/banner1.79cecca9.jpg"
-  },
-  {
-    "revision": "cef48245c8719e072b4dc7d95690addc",
-    "url": "/static/media/banner2.cef48245.jpg"
-  },
-  {
-    "revision": "8f39220916126a2d76669f420f6dd02a",
-    "url": "/static/media/banner3.8f392209.jpg"
   },
   {
     "revision": "8fbe276082bc9a59fc83f465b64628b3",

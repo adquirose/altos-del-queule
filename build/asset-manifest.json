@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d1f3f3a.chunk.css",
-    "main.js": "/static/js/main.6d3c0960.chunk.js",
-    "main.js.map": "/static/js/main.6d3c0960.chunk.js.map",
+    "main.css": "/static/css/main.22de6951.chunk.css",
+    "main.js": "/static/js/main.b1a939ca.chunk.js",
+    "main.js.map": "/static/js/main.b1a939ca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8bd8e4fb.js",
     "runtime-main.js.map": "/static/js/runtime-main.8bd8e4fb.js.map",
-    "static/js/2.3a8c2862.chunk.js": "/static/js/2.3a8c2862.chunk.js",
-    "static/js/2.3a8c2862.chunk.js.map": "/static/js/2.3a8c2862.chunk.js.map",
+    "static/js/2.563026cb.chunk.js": "/static/js/2.563026cb.chunk.js",
+    "static/js/2.563026cb.chunk.js.map": "/static/js/2.563026cb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.21d62709e229f6eae111cb62cfdf0dce.js": "/precache-manifest.21d62709e229f6eae111cb62cfdf0dce.js",
+    "precache-manifest.fd916d59fa4c808bc3adf4f4a440b5b3.js": "/precache-manifest.fd916d59fa4c808bc3adf4f4a440b5b3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6d1f3f3a.chunk.css.map": "/static/css/main.6d1f3f3a.chunk.css.map",
-    "static/js/2.3a8c2862.chunk.js.LICENSE.txt": "/static/js/2.3a8c2862.chunk.js.LICENSE.txt",
+    "static/css/main.22de6951.chunk.css.map": "/static/css/main.22de6951.chunk.css.map",
+    "static/js/2.563026cb.chunk.js.LICENSE.txt": "/static/js/2.563026cb.chunk.js.LICENSE.txt",
     "static/media/asenso-volcan.jpg": "/static/media/asenso-volcan.99a54484.jpg",
     "static/media/casino.jpg": "/static/media/casino.8fbe2760.jpg",
     "static/media/contacto.jpg": "/static/media/contacto.910c83b3.jpg",
@@ -20,18 +20,17 @@
     "static/media/esqui-randone.jpg": "/static/media/esqui-randone.61baad94.jpg",
     "static/media/flora-y-fauna.jpg": "/static/media/flora-y-fauna.f151ea8e.jpg",
     "static/media/lagos.jpg": "/static/media/lagos.eb7a0e51.jpg",
-    "static/media/logo.png": "/static/media/logo.60750642.png",
+    "static/media/logo.png": "/static/media/logo.4635058e.png",
     "static/media/mountain-bike.jpg": "/static/media/mountain-bike.34b74c2a.jpg",
     "static/media/pesca.jpg": "/static/media/pesca.a4cef109.jpg",
     "static/media/rafting.jpg": "/static/media/rafting.459d2f6f.jpg",
     "static/media/texto1.jpg": "/static/media/texto1.03459d36.jpg",
-    "static/media/texto2.jpg": "/static/media/texto2.5402f1cc.jpg",
-    "static/media/texto3.jpg": "/static/media/texto3.67568a4c.jpg"
+    "static/media/texto2.jpg": "/static/media/texto2.5402f1cc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8bd8e4fb.js",
-    "static/js/2.3a8c2862.chunk.js",
-    "static/css/main.6d1f3f3a.chunk.css",
-    "static/js/main.6d3c0960.chunk.js"
+    "static/js/2.563026cb.chunk.js",
+    "static/css/main.22de6951.chunk.css",
+    "static/js/main.b1a939ca.chunk.js"
   ]
 }

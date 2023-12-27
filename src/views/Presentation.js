@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationBar from "components/Navbars/NavigationBar.js";
 import Header from "components/Header";
-import Proyecto , { Caracteristicas, Nosotros } from '../components/Proyecto'
+import Proyecto , { Caracteristicas } from '../components/Proyecto'
 import Atractivos from 'components/Atractivos'
 import Masterplan from 'components/Masterplan'
 import Ubicacion from 'components/Ubicacion'
@@ -34,7 +34,7 @@ function Presentation() {
     <>
       <NavigationBar />
       <Header />
-      <Nosotros />
+      {/* <Nosotros /> */}
       <Proyecto />
       <Caracteristicas />
       <Atractivos />

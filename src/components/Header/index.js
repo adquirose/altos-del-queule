@@ -33,7 +33,7 @@ const items = [
       <Container>
         <Row>
           <Col className="ml-auto mr-auto text-center" md="8">
-            <h1 className="title">Navega por nuestro Master Plan Aéreo</h1>
+            <h1 className="title">Sitios Disponibles</h1>
           </Col>
         </Row>
       </Container>
@@ -47,7 +47,7 @@ const items = [
       <Container>
         <Row>
           <Col className="ml-auto mr-auto text-center" md="8">
-            <h1 className="title">Elige una de nuestras casas y financiamos tu construcción.</h1>
+            <h1 className="title">Elige 2 modelos de casas, <br/>oportunidad en verde <br/>6.990 UF</h1>
           </Col>
         </Row>
       </Container>

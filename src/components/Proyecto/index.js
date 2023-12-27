@@ -127,22 +127,22 @@ function Caracteristicas() {
 }
 export { Caracteristicas }
 
-function Nosotros(){
-  return(
-    <div id="nosotros" className="section">
-      <Container>
-        <Row className="justify-content-center">
-          <Col md="8">
-            <h2 className="title">Nosotros</h2>
-            <p className="description">
-              Inmobiliaria Mar Bravo Ltda. ya ha desarrollado y vendido en los últimos años, 
-              cuatro Condominios Privados Urbanizados en el mismo sector de Hacienda Puerto Pucón, 
-              estos son: Vista Quelhue, Brisas del Quelhue, Mirador del Quelhue y Jardines del Quelhue.
-            </p>
-          </Col>
-        </Row>
-      </Container>
-    </div>
-    )
-}
-export { Nosotros } 
+// function Nosotros(){
+//   return(
+//     <div id="nosotros" className="section">
+//       <Container>
+//         <Row className="justify-content-center">
+//           <Col md="8">
+//             <h2 className="title">Nosotros</h2>
+//             <p className="description">
+//               Inmobiliaria Mar Bravo Ltda. ya ha desarrollado y vendido en los últimos años, 
+//               cuatro Condominios Privados Urbanizados en el mismo sector de Hacienda Puerto Pucón, 
+//               estos son: Vista Quelhue, Brisas del Quelhue, Mirador del Quelhue y Jardines del Quelhue.
+//             </p>
+//           </Col>
+//         </Row>
+//       </Container>
+//     </div>
+//     )
+// }
+// export { Nosotros } 

@@ -89,9 +89,9 @@ function NavigationBar() {
                   Proyecto
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
-                  <DropdownItem to="/#nosotros" tag={Link}>
+                  {/* <DropdownItem to="/#nosotros" tag={Link}>
                     Nosotros
-                  </DropdownItem>
+                  </DropdownItem> */}
                   <DropdownItem to="/#proyecto" tag={Link}>
                     El Proyecto
                   </DropdownItem>

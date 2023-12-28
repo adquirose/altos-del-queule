@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Container,
@@ -8,6 +8,8 @@ import {
   Carousel,
   CarouselItem,
   CarouselIndicators,
+  ButtonGroup,
+  Button
 } from "reactstrap";
 
 // core components
@@ -34,6 +36,16 @@ const items = [
         <Row>
           <Col className="ml-auto mr-auto text-center" md="8">
             <h1 className="title">Sitios Disponibles</h1>
+            <ButtonGroup>
+              <Button 
+                to="/#masterplan" 
+                tag={Link}
+                className="btn-round"
+                color="danger"
+              >
+                VER MASTERPLAN
+              </Button>
+            </ButtonGroup>
           </Col>
         </Row>
       </Container>

@@ -35,7 +35,7 @@ const items = [
       <Container>
         <Row>
           <Col className="ml-auto mr-auto text-center" md="8">
-            <h1 className="title">Sitios Disponibles</h1>
+            <h1 className="title">Sitios Disponibles <br/>desde UF 1.790</h1>
             <ButtonGroup>
               <Button 
                 to="/#masterplan" 
@@ -53,20 +53,20 @@ const items = [
     altText: "",
     caption: "",
   },
-  { 
-    src: "url(https://firebasestorage.googleapis.com/v0/b/storage-lanube360.appspot.com/o/dev-lanube360%2Fheader3.jpg?alt=media&token=26772e0f-c1ff-4616-b578-adb0d46a665b)",
-    content: (
-      <Container>
-        <Row>
-          <Col className="ml-auto mr-auto text-center" md="8">
-            <h1 className="title">Elige 2 modelos de casas, <br/>oportunidad en verde <br/>6.990 UF</h1>
-          </Col>
-        </Row>
-      </Container>
-    ),
-    altText: "",
-    caption: "",
-  },
+  // { 
+  //   src: "url(https://firebasestorage.googleapis.com/v0/b/storage-lanube360.appspot.com/o/dev-lanube360%2Fheader3.jpg?alt=media&token=26772e0f-c1ff-4616-b578-adb0d46a665b)",
+  //   content: (
+  //     <Container>
+  //       <Row>
+  //         <Col className="ml-auto mr-auto text-center" md="8">
+  //           <h1 className="title">Elige 2 modelos de casas, <br/>oportunidad en verde <br/>6.990 UF</h1>
+  //         </Col>
+  //       </Row>
+  //     </Container>
+  //   ),
+  //   altText: "",
+  //   caption: "",
+  // },
 ];
 
 function Header() {
